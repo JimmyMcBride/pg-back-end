@@ -19,13 +19,19 @@ module.exports = {
   development: {
     client: "pg",
     // 🔻 Points to our local Postgresql database
-    connection: process.env.DATABASE_URL
+    connection: process.env.DATABASE_URL,
+    migrations: {
+			directory: './data/migrations'
+		},
+		seeds: {
+			directory: './data/seeds'
+		},
   }
 };
 ```
 [How to find your IP address.](https://www.wikihow.com/Find-the-IP-Address-of-Your-PC)
 
- __Postgresql database URL format:__ postgres://user_name:password@ipaddress:port/table
+ __Postgresql database URL format:__ postgres://user_name:password@ipaddress:port/database
 
 > Note: localhost is the variable for your ip address.
 
