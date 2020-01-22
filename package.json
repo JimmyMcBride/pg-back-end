@@ -1,0 +1,27 @@
+{
+  "name": "pg-back-end",
+  "version": "1.0.0",
+  "description": "A repo meant to help explain how to hook up a node back end to a postgres database.",
+  "main": "index.js",
+  "repository": "https://github.com/JimmyMcBride/pg-back-end.git",
+  "author": "JimmyMcBride <mcbride967@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "knex": "^0.20.8",
+    "morgan": "^1.9.1",
+    "pg": "^7.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
