@@ -42,7 +42,7 @@ For Mac: `psql`
 For Linux: `sudo -u postgres psql` 
 > Pro Tip: ⬆️ Write a bash alias for that one!
 
-For Windows: IDK 🤷‍♂
+For Windows: `psql -U postgres`
 
 Once you are in, your default database is probably postgres, which is cool.
 
